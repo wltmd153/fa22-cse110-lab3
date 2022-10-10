@@ -13,12 +13,15 @@
               <fieldset>
                   <label>Name:</label>
                   <input type="text"><br><br>
-                  <label>Sex:</label><br><br>
-                  <datalist>
-                      <option value="Male">
-                      <option value="Female">
-                      <option value="Other">
-                  </datalist><br><br>
+                  <label>Sex:</label>
+                  <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice">
+                  <datalist id="ice-cream-flavors">
+                      <option value="Chocolate">
+                      <option value="Coconut">
+                      <option value="Mint">
+                      <option value="Strawberry">
+                      <option value="Vanilla">
+                  </datalist>
                   <label for="birthday">Birthday:</label>
                   <input type="date"><br><br>
                   <input type="submit" value="Submit">
