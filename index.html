@@ -14,7 +14,7 @@
                   <label>Name:</label>
                   <input type="text"><br><br>
                   <label>Sex:</label>
-                  <input id="sex">
+                  <input list="sex">
                   <datalist id="sex">
                       <option value="Male">
                       <option value="Female">
@@ -24,8 +24,7 @@
                   <input type="date"><br><br>
                   <input type="radio" id="next_attend">
                   <label for="next_attend">Can you attend next meeting</label><br><br>
-
-                  <h2>What are the preferred hours'</h2>
+                  <h2>What are the preferred hours?</h2>
                   <div>
                       <input type="checkbox" id="prefer_1">
                       <label for="prefer_1">1 pm</label>
@@ -38,6 +37,13 @@
                       <input type="checkbox" id="prefer_5">
                       <label for="prefer_5">5 pm</label>
                   </div>
+                  <br><br>
+                  <label for="find">Student or tutor?:</label>
+                  <select id="find">
+                      <option>TA/Professor</option>
+                      <option>Student</option>
+                  </select>
+                  <br><br>
                   <input type="submit" value="Submit">
               </fieldset>
           </form>
