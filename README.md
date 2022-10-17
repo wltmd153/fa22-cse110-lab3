@@ -1,2 +1,2 @@
 # Lab 2 - Starter
-[website](https://wltmd153.github.io/Lab2_Starter/)
+[website](wltmd153.github.io/fa22-cse110-lab3)
