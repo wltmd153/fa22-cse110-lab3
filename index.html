@@ -17,7 +17,7 @@ video{
  audio{
     position: static;
     }
-h1 {
+h1, h2{
   text-align: center;
   color : violet;
 }
@@ -29,8 +29,6 @@ h1 {
      color : blue;
     }
 .survey{
-    background-color = black;
-    color = white;
     border: 2px solid blue;
     display: block;
     }
@@ -39,6 +37,19 @@ h5 {
     }
 h5[target = name]{
       font-weight: bold;
+    }
+form > fieldset{
+        background-color = black;
+        color = white;
+    }
+div h1 {
+      background-color: yellow;
+    }
+div ~h5{
+      background-color: skyblue;
+    }
+div + h2{
+      padding = 2cm;
     }
   </style>
   <body>
