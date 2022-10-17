@@ -3,13 +3,66 @@
   <head>
     <title>Meeting Minute for group 4</title>
   </head>
+  <style>
+    * {
+   padding: 0.1em;
+   margin: auto;
+   max-width: 30cm;
+}
+video{
+    position: absolute;
+  top: 20cm;
+  right: 10cm;
+    }
+ audio{
+    position: static;
+    }
+h1, h2{
+  text-align: center;
+  color : violet;
+}
+
+#sex{
+    color : red;
+    }
+#find{
+     color : blue;
+    }
+.survey{
+    border: 2px solid blue;
+    display: block;
+    }
+h5 {
+    display: inline;
+    }
+h5[target = name]{
+      font-weight: bold;
+    }
+form > fieldset{
+        background-color = black;
+        color = white;
+    }
+div h1 {
+      background-color: yellow;
+    }
+div ~h5{
+      background-color: skyblue;
+    }
+div + h2{
+      padding = 2cm;
+    }
+    .todo .today{
+      background-color: pink;
+    }
+
+  </style>
   <body>
       <div>
           <h1>Group 4 Brainstorming</h1>
           <h5>2022-10-09</h5>
       </div>
       <div>
-          <form action="./index.html">
+          <form action="./index.html" class="survey">
               <fieldset>
                   <label>Name:</label>
                   <input type="text"><br><br>
@@ -50,11 +103,11 @@
       </div>
       <div>
           <h2>Attendance List</h2>
-          <h5>Jiseung Yoo</h5>
+          <h5 target = "name">Jiseung Yoo</h5>
           <h5>Jason Mraz</h5>
           <h5>Bruno Mars</h5>
       </div>
-      <div>
+      <div class = 'todo today'>
           <h2>Agenda for today</h2>
           <h5>Brain Storming</h5>
           <h3>Newly added topic</h3>
