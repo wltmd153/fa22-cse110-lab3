@@ -4,57 +4,57 @@
     <title>Meeting Minute for group 4</title>
   </head>
   <style>
-    * {
+    * { //for all text, add a little padding and have their margin set to auto. Set the max width as well.
    padding: 0.1em;
    margin: auto;
    max-width: 30cm;
 }
-video{
+video{    //Replace the video in the right spot
     position: absolute;
   top: 15cm;
   right: 7cm;
     }
- audio{
+ audio{   //Let audio be in static position
     position: static;
     }
-h1, h2{
+h1, h2{  // For all big texts h1, h2, put them in the center and give them violet color
   text-align: center;
   color : violet;
 }
 
-#sex{
+#sex{    // Since sex id has to do with red color, have it match
     color : red;
     }
-#find{
+#find{  // Give find id blue color
      color : blue;
     }
-.survey{
+.survey{   //For survey class, create a border and make them block display
     border: 2px solid blue;
     display: block;
     }
-button:hover {
+button:hover {  //whenever you hover on a button, make it purple color
     color: purple;
     }
-h5 {
+h5 {        //h5 is used for naming and listings so make it inline display
     display: inline;
     }
-h5[target = name]{
+h5[target = name]{  //for all h5 with target attribute of my name, make it bold
       font-weight: bold;
     }
-form > fieldset{
+form > fieldset{    // the fieldset inside form should be black colored background with white color text
         background-color = black;
         color = white;
     }
-div h1 {
+div h1 {      // for h1 next down to div, make it have yellow background
       background-color: yellow;
     }
-div ~h5{
+div ~h5{      // for all listing after div, give it skyblue background
       background-color: skyblue;
     }
-div + h2{
+div + h2{     // for the first h2 after div, give it padding to make it looking like header
       padding = 2cm;
     }
-    .todo .today{
+    .todo .today{   //for today's todo, give it pink background color
       background-color: pink;
     }
 
